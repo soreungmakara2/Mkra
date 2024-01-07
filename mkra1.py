@@ -19,9 +19,9 @@ url=''
 host=''
 headers_useragents=[]
 headers_referers=[]
-request_counter=0.0
+request_counter=0.5
 flag=0.0
-safe=0.0
+safe=0.5
 
 def inc_counter():
 	global request_counter
@@ -138,7 +138,7 @@ def httpcall(url):
 			#print e.code
 			set_flag(2)
 			print '=====> (CAT) ===> Attack ==> 50000'
-		        print '         🖕         🖕            '
+
 			code=50000
 	except urllib2.URLError, e:
 			#print e.reason
