@@ -136,7 +136,7 @@ def httpcall(url):
 			urllib2.urlopen(request)
 	except urllib2.HTTPError, e:
 			#print e.code
-			set_flag(1)
+			set_flag(2)
 			print '=====> (CAT) ===> Attack ==> 50000'
 		        print '         🖕         🖕            '
 			code=50000
