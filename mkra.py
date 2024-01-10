@@ -128,7 +128,7 @@ def httpcall(url):
 	except urllib2.HTTPError, e:
 			#print e.code
 			set_flag(1)
-			print '===> CAT => (Code)==> 5000'
+			print '===> CAT => CAT==> 5000'
 			code=5000
 	except urllib2.URLError, e:
 			#print e.reason
