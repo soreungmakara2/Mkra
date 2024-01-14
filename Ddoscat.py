@@ -1,5 +1,6 @@
 import os
 import sys
+import so, sys
 
 from socket import socket, AF_INET, SOCK_STREAM
 from traceback import print_exc
