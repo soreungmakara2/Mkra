@@ -1,5 +1,4 @@
 
-import socks
 import random
 import threading
 import sys
