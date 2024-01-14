@@ -28,8 +28,8 @@ print("""
             -------         -------
              (~~~)           (~~~)
 |******************| usage |*******************|
-|       python3 torshammer.py <target>         |
-|       python3 torshammer.py example.com      |
+|       python3 script1.py <target>         |
+|       python3 script1.py  example.com      |
 ************************************************
 """)
 
