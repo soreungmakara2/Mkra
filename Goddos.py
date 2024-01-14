@@ -21,13 +21,13 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-os.system("figlet DDos Attack")
+os.system("mkra DDos Attack")
 print " "
 print "/---------------------------------------------------\ "
-print "|   Author          : mkra                     |"
+print "|   Author          : mkra                           |"
 print "| Author github : https://github.com/soreungmakara2/Makra |"
-print "|   Kali-QQ learning group : 989773783             |"
-print "|   Edition         : V1.0.0                        |"
+print "|   Kali-QQ learning group : 989773783               |"
+print "|   Edition         : V1.0.0                         |"
 print "\---------------------------------------------------/"
 print " "
 print " ---------[Do not use for illegal purposes]--------- "
